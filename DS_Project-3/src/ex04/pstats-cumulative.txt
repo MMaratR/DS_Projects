@@ -1,0 +1,13 @@
+         521161 function calls (511279 primitive calls) in 2.021 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1346 to 5 due to restriction <5>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    2.021    2.021 financial_enhanced.py:11(financial)
+        1    0.000    0.000    1.850    1.850 _api.py:174(get)
+        1    0.000    0.000    1.850    1.850 _api.py:39(request)
+        1    0.000    0.000    1.809    1.809 _client.py:771(request)
+        1    0.000    0.000    1.809    1.809 _client.py:879(send)
+
+

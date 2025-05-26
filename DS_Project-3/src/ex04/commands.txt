@@ -1,0 +1,7 @@
+python -m cProfile -s time financial.py 'MSFT' 'Total Revenue' > profiling-sleep.txt
+
+python -m cProfile -s time financial.py 'MSFT' 'Total Revenue' > profiling-tottime.txt
+
+python -m cProfile -s time financial_enhanced.py 'MSFT' 'Total Revenue' > profiling-http.txt
+
+python -m cProfile -s ncalls financial.py 'MSFT' 'Total Revenue' > profiling-ncalls.txt
